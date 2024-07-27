@@ -24,13 +24,13 @@ KAVENEGAR_API_KEY="a secret to be used for kavenegar"
 ACCESS_TOKEN_SECRET_KEY="a secret to be used for access token"
 REFRESH_TOKEN_SECRET_KEY="a secret to be used for refresh token"
 COOKIE_PARSER_SECRET_KEY="a secret to be used for cookies"
-TOKEN_SECRET_KEY="secret!!!"
-ZARINPAL_CALLBACK_URL=?
-CLIENT_URL="the URL for client"
-SERVER_URL="the URL for server"
-NODE_ENV="the runtime environment of the app"
-PORT="the port that the app should be runned on"
-ALLOW_CORS_ORIGIN="the URL for client"
+TOKEN_SECRET_KEY="a secret ..."
+ZARINPAL_CALLBACK_URL=/api/payment/verify
+CLIENT_URL=http://localhost:3000
+SERVER_URL=http://localhost:5000
+NODE_ENV=development
+PORT=5000
+ALLOW_CORS_ORIGIN=http://localhost:3000
 DOMAIN=localhost
 ```
 
